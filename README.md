@@ -16,23 +16,35 @@ systems programming, compilers, operating systems, and networking.
 - [ ] Log-structured file store
 - [ ] Tiny filesystem in a file
 
-### Months 7–9: Parsing & Compilers
+### Months 7–8: Nand2Tetris (Hardware → OS Journey)
+- [ ] Build logic gates → ALU → CPU
+- [ ] Implement assembler
+- [ ] Write a virtual machine (VM)
+- [ ] Build a Jack language compiler
+- [ ] Implement a mini operating system on Hack computer
+
+### Months 9–11: Parsing & Compilers
 - [ ] Arithmetic parser (recursive descent)
 - [ ] Mini language interpreter
 - [ ] Command-line shell
+- [ ] **Crafting Interpreters (Part II – Bytecode VM in C)**
+  - [ ] Implement VM execution model
+  - [ ] Bytecode format
+  - [ ] Garbage collection
+  - [ ] Optimizations
 
-### Months 10–12: Indexing & Transactions
+### Months 12–14: Indexing & Transactions
 - [ ] B-Tree
 - [ ] Skip List / Trie (optional)
 - [ ] Write-Ahead Log (WAL) simulator
 - [ ] Bank account transaction simulator
 
-### Months 13–15: Networking
+### Months 15–16: Networking
 - [ ] TCP echo server
 - [ ] Key-Value store over TCP
 - [ ] Multi-client chat server
 
-### Months 16–18: Database Project 🎯
+### Months 17–18: Database Project 🎯
 - [ ] Toy database (SQLite-lite)
   - [ ] `INSERT` and `SELECT`
   - [ ] Disk-backed pages
@@ -40,6 +52,11 @@ systems programming, compilers, operating systems, and networking.
   - [ ] WAL logging
   - [ ] SQL-like parser
   - [ ] TCP client/server interface
+- [ ] **Writing a C Compiler (Nora Sandler)**
+  - [ ] Lexer & parser for C subset
+  - [ ] AST → x86 codegen
+  - [ ] Stack frames & registers
+  - [ ] Executable output
 
 ---
 
@@ -56,8 +73,13 @@ systems programming, compilers, operating systems, and networking.
 
 - **Compilers:**  
   - *Crafting Interpreters* – Robert Nystrom  
+  - *Writing a C Compiler* – Nora Sandler  
   - *Engineering a Compiler* – Aho, Lam, Sethi, Ullman  
-  - [Ruslan Spivak – Let’s Build a Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/)
+  - [Ruslan Spivak – Let’s Build a Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/)  
+
+- **Hardware to OS (Nand2Tetris):**  
+  - [The Elements of Computing Systems](https://www.nand2tetris.org/)  
+  - Nand2Tetris Coursera course (Part I & II)  
 
 - **Databases:**  
   - [cstack – Build Your Own Database](https://cstack.github.io/db_tutorial/)  
@@ -72,6 +94,10 @@ systems programming, compilers, operating systems, and networking.
 ## 🚀 Goal
 
 At the end of this roadmap, you will have:
-- Strong foundations in **C, OS, compilers, networking, and databases**
+- Strong foundations in **C, OS, compilers, networking, databases, and even hardware**
 - A working **toy relational database** (SQLite-lite) written from scratch
 - A portfolio of projects to demonstrate **systems-level engineering skills**
+- Hands-on experience with:
+  - **Interpreters (Crafting Interpreters)**  
+  - **Compilers & codegen (Nora Sandler)**  
+  - **Hardware → OS stack (Nand2Tetris)**
